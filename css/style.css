@@ -1,0 +1,190 @@
+/*** Base Styles ***/
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: Lucida Sans Unicode;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-family: Lucida Sans Unicode;
+	font-size: 12px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	background-color: grey;
+	border: ;
+	display: block;
+	margin-top: 35px;
+
+}
+
+h3 {
+	font-family: Lucida Sans Unicode;
+	text-align: center;
+    border: 1px solid #000;
+    display: block;
+    width: 130px;
+    font-size: 125%;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #d4d79e ;
+    color: white;
+
+}
+
+h4 {
+	font-family: Lucida Sans Unicode;
+	text-align: center;
+    border: 1px solid #000;
+    display: block;
+    width: 130px;
+    font-size: 125%;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #d7b29e ;
+    color: white;
+
+}
+
+h5 {
+	font-family: Lucida Sans Unicode;
+	text-align: center;
+    border: 1px solid #000;
+    display: block;
+    width: 130px;
+    font-size: 125%;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    background-color:  #bfd79e;
+    color: white;
+}
+
+#left, #middle, #right {
+    border: 1px solid #000;
+    margin-bottom: 18px;
+    padding: 0 10px 10px 10px;
+    background: #9ed0d7;
+    position: relative;
+    
+ }
+
+#title {
+	text-align: center;
+}
+
+#p1 {
+	background-color: red;
+	position: ; 
+	top:0; 
+	right:0;
+	display: ;
+	text-align: center;
+	padding: ;
+	float:right;
+
+}
+
+/*** Simply Responsive Layout ***/
+
+#row {
+	width: 100%;
+	position: absolute;
+}
+
+#left {
+	float: left;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+#middle {
+	float: left;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+#right {
+	float: left;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+
+/*** Phone Devices Only ***/
+
+@media (max-width: 767px;) {
+
+#left {
+	width: 100%;
+
+}
+
+#middle {
+	width: 100%;
+}
+
+#right {
+	width: 100%;
+}}
+
+
+/*** Tablet Devices Only ***/
+@media (min-width: 768px) {
+
+#row {
+	display: ;
+	width: ;
+	position: ;
+}	
+	
+#left {
+	width: 50%;
+	float: left;
+}
+		
+#middle {
+	width: 50%;
+	float: right;
+}	
+
+#right {
+	clear: ;
+	width: auto;
+	float: ;
+}}
+
+
+
+/*** Desktop Only ***/
+
+@media (min-width: 992px) {
+
+#row {
+	display: ;
+	width: 100%;
+}	
+	
+#left {
+
+	width: 33%;
+	float: left;
+	padding: ;	
+}
+
+#middle {
+	
+	width: 33%;
+	float: left;
+	padding: ;	
+}
+
+#right {
+	width: 33%;
+	float: left;
+}}
